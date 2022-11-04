@@ -1,0 +1,7 @@
+- name: create helloword
+  hosts: all
+  tasks:
+    - name: create file
+      ansible.builtin.file:
+        path: /etc/hellowordawx
+        state: touch
