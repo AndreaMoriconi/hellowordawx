@@ -1,7 +1,7 @@
 - name: create helloword
   hosts: all
   vars: 
-    file_path: /etc/hellowordawx
+    file_path: /etc/hellowordawxxx
     
   tasks:
     - name: create file
